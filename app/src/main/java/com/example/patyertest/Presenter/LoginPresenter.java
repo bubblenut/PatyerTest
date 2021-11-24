@@ -4,6 +4,7 @@ import com.example.patyertest.Model.User;
 import com.example.patyertest.View.ILoginView;
 
 public class LoginPresenter implements ILoginPresenter{
+    // Связываем презентер с вью
     ILoginView loginView;
 
     public LoginPresenter(ILoginView loginView){
